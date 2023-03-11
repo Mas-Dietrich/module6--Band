@@ -1,0 +1,55 @@
+header, main, footer {
+        max-width: 75rem;
+        margin:auto;
+}
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+header {
+        grid-template-columns: 51px auto auto auto;
+}
+
+/*----------- NAVIGATION --------------*/
+
+nav {
+        button { display: none;}
+        justify-self: end;
+        ul, ul.open {
+                position: relative;
+                display: flex;
+                background-color: transparent;
+                width: auto;
+        }
+        ul li a {
+                color: #333;
+                 border-radius: 20px;
+                 padding: .5rem 1rem;
+                margin-left: .2rem; 
+                transition: all .5s ease;
+        }
+
+        ul li a:hover {
+                background-color: #eee;
+                color: #333!important;
+        }
+
+        ul li.active a {
+                color: white;
+        }
+
+        ul li {border: none;}
+}
+
+/*----------- MAIN --------------*/
+
+section.members article{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+/*----------- FOOTER --------------*/
+    

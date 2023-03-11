@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Module 6: Band">
+<meta name="author" content="Mason Dietrich">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>HTML5 Start Site by Paul Cheney</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/styles.css" rel="stylesheet">
+
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+    <header>
+        <img alt="logo" src="images/logo1x.png">
+        <h1>Your Favorite Band</h1>
+        <h2>We Will Rock You</h2>
+            <nav>
+                <button id="hamburgerBtn">&#9776;</button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="#">Members</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Book Us</a></li>
+                    <li><a href="#">Backstory</a></li>    
+                </ul>
+            </nav>
+    </header>
+    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <!--Start Members Section-->
+        <h1>Members</h1>
+        <scetion class="members">
+            <article>
+                <h2>Dan Drummer</h2>
+                <figure class="round">
+                    <img src="images/andrew-petrischev-qTKt5aeMFBQ-unsplash.jpg" alt="dan">
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Necessitatibus iusto distinctio
+                perspiciatis, iste culpa, sit cum facere laudantium
+                voluptatibus officiis delectus. Cupiditate eaque rem
+                perferendis blanditiis. Impedit veritatis beatae unde!</p>
+            </article>
+
+            <article>
+                <h2>Sam Singer</h2>
+                <figure class="arc">
+                <img src="images/mohd-zuber-saifi-pFwPM1_YI2M-unsplash.jpg" alt="sam">
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Necessitatibus iusto distinctio
+                perspiciatis, iste culpa, sit cum facere laudantium
+                voluptatibus officiis delectus. Cupiditate eaque rem
+                perferendis blanditiis. Impedit veritatis beatae unde!</p>
+            </article>
+
+            <article>
+                <h2>Grant Guitar</h2>
+                <figure class="diamond">
+                <img src="images/jakayla-toney-66xudbdQZuU-unsplash.jpg" alt="grant">
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Necessitatibus iusto distinctio
+                perspiciatis, iste culpa, sit cum facere laudantium
+                voluptatibus officiis delectus. Cupiditate eaque rem
+                perferendis blanditiis. Impedit veritatis beatae unde!</p>
+            </article>
+
+            <article>
+                <h2>Bill Backup</h2>
+                <figure class="play">
+                    <img src="images/melanie-van-leeuwen-QA-qQfWJM0E-unsplash.jpg" alt="bill">
+                </figure>
+                <img>
+                <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Necessitatibus iusto distinctio
+                perspiciatis, iste culpa, sit cum facere laudantium
+                voluptatibus officiis delectus. Cupiditate eaque rem
+                perferendis blanditiis. Impedit veritatis beatae unde!</p>
+            </article>
+
+        </scetion>
+
+
+
+        <!--End members section-->
+
+        <!-- Start Performances-->
+        <section class="bandGallery">
+            <h1>Performances</h1>
+
+            <figure>
+                <img alt="concert 1" class="lazy" data-src="images/rachel-coyne-U7HLzMO4SIY-unsplash.jpg" />
+            </figure>
+            <figure>
+                <img alt="concert 2" class="lazy" data-src="images/zachary-smith-zorgErvL_Fs-unsplash.jpg" />
+            </figure>
+            <figure>
+                <img alt="concert" class="lazy" data-src="images/chris-zhang-uGh-hHVPRYI-unsplash.jpg" />
+            </figure>
+            <figure>
+                <img alt="concert" class="lazy" data-src="images/noah-f-ZMwZGBTgEUs-unsplash.jpg" />
+            </figure>
+            <figure>
+                <img alt="concert" class="lazy" data-src="images/hanny-naibaho-aWXVxy8BSzc-unsplash.jpg" />
+            </figure>
+            <figure>
+                <img alt="concert" class="lazy" data-src="images/spencer-davis-naFHFLV5cqU-unsplash.jpg" />
+            </figure>
+            <figure>
+                <img alt="concert" class="lazy" data-src="images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg" />
+            </figure>
+            <figure>
+                <img alt="concert" class="lazy" data-src="images/tijs-van-leur-So6YckShOVA-unsplash.jpg" />
+            </figure>
+            <figure>
+                <img alt="concert" class="lazy" data-src="images/nathan-fertig-IW5Bm4rB9OA-unsplash.jpg" />
+            </figure>
+            <figure>
+                <img alt="concert" class="lazy" data-src="images/yvette-de-wit-NYrVisodQ2M-unsplash.jpg" />
+            </figure>
+
+        </section>
+        <!--End performances-->
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        &copy; 2023 &bull; Mason Dietrich &bull; DGM2740
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script>    var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy", threshold: 0
+        // Your custom settings go here
+      });
+</script>
+
+</body>
+</html>
