@@ -433,6 +433,15 @@ section.bandGallery figure img {
   display: block;
 }
 
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+figure img {
+  width: 150px;
+}
+
 figure.round img {
   float: right;
   shape-outside: circle(50% at 50%);
@@ -491,7 +500,6 @@ footer {
     font-size: 1rem;
   }
   main section.members {
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
   /*----------- FOOTER --------------*/
@@ -537,9 +545,8 @@ footer {
     border: none;
   }
   /*----------- MAIN --------------*/
-  section.members article {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  main section.members {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   /*----------- FOOTER --------------*/
 } /* end of media query */

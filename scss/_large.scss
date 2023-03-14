@@ -46,10 +46,7 @@ nav {
 
 /*----------- MAIN --------------*/
 
-section.members article{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+main section.members{grid-template-columns: 1fr 1fr 1fr 1fr;}
 
 /*----------- FOOTER --------------*/
     
