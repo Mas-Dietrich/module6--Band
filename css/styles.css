@@ -539,7 +539,8 @@ footer {
     color: #333 !important;
   }
   nav ul li.active a {
-    color: white;
+    color: black;
+    background-color: pink;
   }
   nav ul li {
     border: none;
